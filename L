@@ -1,0 +1,25 @@
+node -v
+npm -v
+
+mkdir my-electron-app && cd my-electron-app
+npm init
+
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "description": "Hello World!",
+  "main": "main.js",
+  "author": "Jane Doe",
+  "license": "MIT"
+}
+
+npm install --save-dev electron
+
+{
+  "scripts": {
+    "start": "electron ."
+  }
+}
+
+
+npm start
