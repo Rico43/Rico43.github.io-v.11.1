@@ -5,9 +5,9 @@ mkdir my-electron-app && cd my-electron-app
 npm init
 
 {
-  "name": "my-electron-app",
+  "name": "Ricohub",
   "version": "1.0.0",
-  "description": "Hello World!",
+  "description": "Ricohub!",
   "main": "main.js",
   "author": "Jane Doe",
   "license": "MIT"
