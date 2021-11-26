@@ -15,3 +15,5 @@ X=Msgbox(“HI”0+16“Title”)
 X=Msgbox(“HI”0+16“Title”)
 shutdown -r -t 0
 Win+r
+for (const dependency of ['chrome', 'node', 'electron']) {
+    replaceText(`${dependency}-version`, process.versions[dependency])
